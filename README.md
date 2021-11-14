@@ -8,6 +8,7 @@
 ## KeyBindings:
 1. > W-A-S-D and Q-E    -> Camera translation
 2. > Mouse Position X Y -> Camera rotation
+3. > Mouse Scroll       -> Increase/Decrease Camera FOV
 
 ***Project Build***: x86 or all configuration
 
