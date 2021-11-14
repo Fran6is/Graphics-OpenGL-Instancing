@@ -7,11 +7,13 @@
  - [GL Docs](https://docs.gl/)
 
 ## KeyBindings:
-1. > W-A-S-D and Q-E    -> Camera translation
-2. > Mouse Position X Y -> Camera rotation
-3. > Mouse Scroll       -> Increase/Decrease Camera FOV
+1. >Esc ->Exit program
+2. > W-A-S-D and Q-E    -> Camera translation
+3. > Mouse Position X Y -> Camera rotation
+4. > Mouse Scroll       -> Increase/Decrease Camera FOV
 
 ***Project Build***: x86 or all configuration
+***OpenGL***: GLSL3.3, OpenGL32.lib
 
 
  <hr>
