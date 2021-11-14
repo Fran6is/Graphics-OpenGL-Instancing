@@ -1,0 +1,5 @@
+0.574817 -0.695573 0.431003 	Camera forward 
+-0.599902 0 0.800073 	Camera right 
+0.55651 0.718455 0.417276 	Camera up 
+-115.773 137.977 -90.2811 	Camera Position 
+45 0 0  	Camera FOV 
