@@ -4,6 +4,7 @@
 ## Reference(s) : 
  - [LearnOpenGL](https://learnopengl.com/Advanced-OpenGL/Instancing)
  - [GitConnected|Article](https://levelup.gitconnected.com/how-to-create-instanced-particles-in-opengl-24cb089911e2)
+ - [GL Docs](https://docs.gl/)
 
 ## KeyBindings:
 1. > W-A-S-D and Q-E    -> Camera translation
