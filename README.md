@@ -13,6 +13,7 @@
 4. > Mouse Scroll       -> Increase/Decrease Camera FOV
 
 ***Project Build***: x86 or all configuration
+
 ***OpenGL***: GLSL3.3, OpenGL32.lib
 
 
