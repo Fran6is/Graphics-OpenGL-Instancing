@@ -64,7 +64,7 @@ vec3 GetLitColor( vec3 SurfacePosition, vec3 SurfaceNormal, Material ObjectMater
         {
 			ToLightSource = normalize( CurrentLight.Position - SurfacePosition );
 
-			float OntoLightDirection = dot( -ToLightSource, normalize(CurrentLight.Direction));            
+			float OntoLightDirection = max( dot( -ToLightSource, normalize(CurrentLight.Direction)), 0.0);            
             
             float DistanceFromCenter = sin(acos(OntoLightDirection));
             
