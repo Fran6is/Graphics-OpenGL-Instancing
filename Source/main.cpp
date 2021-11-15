@@ -191,7 +191,7 @@ int main()
     //PointLight.Linear    = 0.09f;
 
     Light AmbientLight = {AMBIENT_LIGHT};
-    AmbientLight.Intensity = 0.1f;
+    AmbientLight.Intensity = 0.001f;
 
     Light SpotLight = {SPOT_LIGHT};
     SpotLight.Position    = glm::vec3(-10, 5, 50);
