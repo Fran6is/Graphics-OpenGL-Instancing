@@ -203,7 +203,9 @@ int main()
     std::vector<Light*> SceneLights;
     AddLightToScene(SceneLights, PointLight); 
     AddLightToScene(SceneLights, AmbientLight);
-
+	
+    UpdateLight(CubeProgram, SceneLights, MainCamera.GetPositionVector());
+	
     CubeProgram.Use();
     UpdateLight(CubeProgram, SceneLights, CameraController.GetCameraPosition() );
 
@@ -321,6 +323,8 @@ void AddLightToScene( std::vector<Light*>& SceneLights, Light& LightToAdd)
 
 void UpdateLight(const Shader& Program, const std::vector<Light*>& SceneLights, const glm::vec3& CameraPosition)
 {
+    Program.Use();
+	
     int i = 0;
     for (const auto Light : SceneLights)
     {
