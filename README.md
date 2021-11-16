@@ -2,9 +2,9 @@
 # Instancing in OpenGL with ***[glDrawArraysInstanced](https://docs.gl/gl3/glDrawArraysInstanced)*** and ***[glDrawElementsInstanced](https://docs.gl/gl3/glDrawElementsInstanced)*** . 
 
 ## Reference(s) : 
- - [LearnOpenGL](https://learnopengl.com/Advanced-OpenGL/Instancing)
- - [GitConnected|Article](https://levelup.gitconnected.com/how-to-create-instanced-particles-in-opengl-24cb089911e2)
  - [GL Docs](https://docs.gl/)
+ - [LearnOpenGL](https://learnopengl.com/Advanced-OpenGL/Instancing)
+
 
 ## KeyBindings:
 1. >Esc ->Exit program
